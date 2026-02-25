@@ -1,3 +1,32 @@
+# Data
+data/
+qp-projects/
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.tif
+
+# Files
+*.pickle
+*.pkl
+*.pth
+*.key
+*.bin
+.gitattributes
+config.json
+
+# Checkpoints
+checkpoints/
+
+# notebooks
+*.ipynb
+
+# Directories
+.locks/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

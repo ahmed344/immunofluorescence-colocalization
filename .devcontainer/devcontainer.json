@@ -1,0 +1,28 @@
+{
+	"name": "immunofluorescence-colocalization",
+	"build": {
+        "dockerfile": "Dockerfile"
+    },
+
+	// Configure tool-specific properties.
+	"customizations": {
+        // Configure the vscode.
+        "vscode": {
+            // Install the vscode extension.
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.debugpy",
+                "ms-toolsai.jupyter",
+                "njpwerner.autodocstring"
+            ]
+        }
+        
+    },
+
+    // Mount the data directory in the container.
+    "mounts": [
+        "source=/home/ahmed/Data,target=/workspaces/immunofluorescence-colocalization/data,type=bind,consistency=cached",
+        "source=/home/ahmed/QP-projects,target=/workspaces/immunofluorescence-colocalization/qp-projects,type=bind,consistency=cached"
+    ]
+}

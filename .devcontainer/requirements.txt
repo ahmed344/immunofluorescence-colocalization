@@ -1,0 +1,15 @@
+openslide-python
+openslide-bin
+tifffile
+numba
+pywavelets
+pandas
+seaborn
+statannotations
+scikit-learn
+scikit-image
+opencv-python-headless
+imagecodecs
+jupyter
+ipywidgets
+jupytext
