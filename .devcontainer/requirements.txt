@@ -13,3 +13,4 @@ imagecodecs
 jupyter
 ipywidgets
 jupytext
+statsmodels
